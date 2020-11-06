@@ -17,8 +17,8 @@ To execute the code:
 ### On Terminal
 
 ```{ .sh }
-nvcc -o Jacobi_Eigen_Parallel Jacobi_Eigen_Parallel.cu
-cuda-memcheck ./Jacobi_Eigen_Parallel
+$ nvcc -o Jacobi_Eigen_Parallel Jacobi_Eigen_Parallel.cu
+$ cuda-memcheck ./Jacobi_Eigen_Parallel
 ```
 
 ### On Notebook
@@ -95,8 +95,8 @@ where first three numbers are the first column of A, second three numbers are th
 To execute the code:
 
 ```{ .sh }
-g++ JacobiEigen_Serial/Jacobi_Eigen_Serial.cpp -o JacobiEigen_Serial/Jacobi_Eigen_Serial
-./JacobiEigen_Serial/Jacobi_Eigen_Serial 20 0 real
+$ g++ JacobiEigen_Serial/Jacobi_Eigen_Serial.cpp -o JacobiEigen_Serial/Jacobi_Eigen_Serial
+$ ./JacobiEigen_Serial/Jacobi_Eigen_Serial 20 0 real
 ```
 
 > :warning: **Can execute for a infinite time.**
