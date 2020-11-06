@@ -101,7 +101,7 @@ g++ JacobiEigen_Serial/Jacobi_Eigen_Serial.cpp -o JacobiEigen_Serial/Jacobi_Eige
 
 > :warning: **Can execute for a infinite time.**
 
-## [Jacobi Eigen Notebook](/Jacobi_Eigen_Parallel.ipynb)
+## [Jacobi Eigen Notebook](/Eigen_Value_parallel_cuda.ipynb)
 
 Code is given to run both Jacobe Eigen Serial and parallel.
 The code was run in [Google Colab](https://colab.research.google.com/).  
