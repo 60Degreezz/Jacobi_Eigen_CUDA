@@ -104,7 +104,8 @@ $ ./JacobiEigen_Serial/Jacobi_Eigen_Serial 20 0 real
 ## [Jacobi Eigen Notebook](/Eigen_Value_parallel_cuda.ipynb)
 
 Code is given to run both Jacobe Eigen Serial and parallel.  
-> :space_invader: Place the Python Notebook in the same location as shown in the repository
+> :space_invader: Place the Python Notebook in the same location as shown in the repository.  
+
 The code was run in [Google Colab](https://colab.research.google.com/).  
 The [matrix.dat](/data/matrix.dat) currently has a symmetric matrix of size 20 \* 20.  
 This [link](https://onlinemathtools.com/generate-random-matrix) can be used to produce random matrices: <https://onlinemathtools.com/generate-random-matrix>
