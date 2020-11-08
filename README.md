@@ -6,7 +6,7 @@ When the program starts, It takes in matrices or vectors as inputs from the user
 Then the program will assign each individual vector to each of the threads.  
 We then wrap the trivial kernel (je) around them to launch each thread operating on separate data sets (i.e. matrices), and as an output each thread produces its own set of eigenvalues (and eigenvectors - for this particular code base).
 
-The code can handle Double-precision floating-point values in a matrix. For viweing the max number of digits edit the
+The code can handle Double-precision floating-point values in a matrix. For viewing the max number of digits edit the line
 
 ```{ .cpp }
 std::cout.precision(<<int value>>);
